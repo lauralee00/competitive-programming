@@ -3,13 +3,13 @@ from collections import defaultdict
 
 class Solution:
     def findingUsersActiveMinutes(self, logs: List[List[int]], k: int) -> List[int]:
-        # logs[i] = [IDi, timei]: user with ID_i performed an action at the minute time_i.
+        # logs[i] = [ID_i, time_i]: user with ID_i performed an action at the minute time_i.
         # UAM: number of unique minutes which user performed action on leetcode (counted once per one active minute)
         # calculate answer[] where len(answer) = k, s.t. for 1 <= j <= k, answer[j] = num of users where UAM == j
 
         # findings: if user committed multiple actions in given time, disregard
         userTime = defaultdict(set)
-        UAM_per_user = dict()
+        UAM_per_user = defaultdict(int)
         answer = [0] * k
 
         for ID, time in logs:
@@ -17,7 +17,9 @@ class Solution:
 
         for ID in userTime:
             uam = len(userTime[ID])
-            UAM_per_user[uam] = UAM_per_user.get(uam, 0) + 1
+            UAM_per_user[uam] += 1
+            # UAM_per_user[uam] = UAM_per_user.get(uam, 0) + 1
+            
             # if UAM not in UAM_per_user:
             #    UAM_per_user[UAM] = 0
             # else:
