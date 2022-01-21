@@ -7,4 +7,7 @@ Beginning of a Journey :)
 
 [LeetCode](https://github.com/lauralee00/cp/tree/main/PycharmProjects/cp/leetcode)
 
-[Learning Log]tbd
+Learning Log:
+
+1/21/2021:
+LC: 70 / 53 / 3
