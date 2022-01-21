@@ -7,3 +7,4 @@ Beginning of a Journey :)
 
 [LeetCode](https://github.com/lauralee00/cp/tree/main/PycharmProjects/cp/leetcode)
 
+[Learning Log]tbd
