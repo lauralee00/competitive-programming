@@ -10,5 +10,7 @@ Beginning of a Journey :)
 Learning Log:
 
 1/21/2021:
+
 LC: 70 / 53 / 3
-[Blind 75: ](https://docs.google.com/spreadsheets/d/1TAjDa-KUQ-ChtOa-efYwPXtMIfNfUrvz_66O-ezNkBI/edit#gid=0)
+
+[Blind 75](https://docs.google.com/spreadsheets/d/1TAjDa-KUQ-ChtOa-efYwPXtMIfNfUrvz_66O-ezNkBI/edit#gid=0)
