@@ -1,3 +1,5 @@
+from typing import List
+
 class Solution:
     def findPairs(self, nums: List[int], k: int) -> int:
         # O(N^2) - TLE

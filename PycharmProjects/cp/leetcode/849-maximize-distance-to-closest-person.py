@@ -1,5 +1,7 @@
+from typing import List
+
 class Solution:
-    def maxDistToClosest(self, seats: list[int]) -> int:
+    def maxDistToClosest(self, seats: List[int]) -> int:
 
         occupied_idx = [] # space O(N)
         a, b = 0, len(seats) - 1

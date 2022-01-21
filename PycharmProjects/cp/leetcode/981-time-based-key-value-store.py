@@ -23,8 +23,9 @@ class TimeMap:
                 break  # or return temp_val, but this is prettier given we don't have to case returns
             temp_ts, temp_val = ts_prev, val
         return temp_val
-'''
+
 # Your TimeMap object will be instantiated and called as such:
 # obj = TimeMap()
 # obj.set(key,value,timestamp)
 # param_2 = obj.get(key,timestamp)
+

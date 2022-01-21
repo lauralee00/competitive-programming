@@ -1,4 +1,7 @@
 from collections import defaultdict
+from typing import List
+
+
 class TweetCounts:
 
     def __init__(self):
