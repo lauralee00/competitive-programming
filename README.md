@@ -7,6 +7,8 @@ Beginning of a Journey :)
 
 [LeetCode](https://github.com/lauralee00/cp/tree/main/PycharmProjects/cp/leetcode)
 
+
+
 TODO:
 
 Biweekly:
@@ -19,6 +21,7 @@ Biweekly:
 Weekly:
 
   [[1]](https://leetcode.com/problems/maximum-good-people-based-on-statements/discuss/1711216/Python3-Java-C%2B%2B-Subsets)[[2]](https://leetcode.com/problems/maximum-good-people-based-on-statements/discuss/1711228/Python-O((N-2)-*-(2-N))-Very-simple-solution-with-detailed-explanation) - Subsets / Bitwise (Brute Force)
+
 
 
 Learning Log:
