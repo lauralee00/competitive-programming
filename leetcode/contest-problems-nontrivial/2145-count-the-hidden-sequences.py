@@ -1,8 +1,5 @@
-import sys
 import itertools
 from typing import List
-input = lambda: sys.stdin.readline().strip()
-read = lambda: map(int, input().split())
 
 # TC: O(N)
 # SC: O(N)
