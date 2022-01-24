@@ -1,5 +1,6 @@
 from typing import List
 
+
 class Solution:
     def minMoves(self, nums: List[int]) -> int:
         m = min(nums)

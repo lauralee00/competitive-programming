@@ -1,9 +1,3 @@
-import sys
-
-input = lambda: sys.stdin.readline().strip()
-read = lambda: map(int, input().split())
-
-
 class Solution:
     def reachingPoints(self, sx: int, sy: int, tx: int, ty: int) -> bool:
         while tx >= sx and ty >= sy:

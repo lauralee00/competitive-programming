@@ -1,8 +1,4 @@
-import sys
 from typing import List
-
-input = lambda: sys.stdin.readline().strip()
-read = lambda: map(int, input().split())
 
 # Time Complexity: O (rows * cols * 3 ^ k + N * k)
 # Trie -> O (N * k) -- k = length of words[i], N = number of words

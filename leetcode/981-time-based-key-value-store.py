@@ -4,6 +4,7 @@
 from collections import defaultdict
 import bisect
 
+
 class TimeMap:
 
     def __init__(self):

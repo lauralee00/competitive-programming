@@ -1,8 +1,4 @@
-import sys
 from typing import List
-
-input = lambda: sys.stdin.readline().strip()
-read = lambda: map(int, input().split())
 
 # Time Complexity : O ( m * n * 3^k ) -> k = len(word)
 # Space Complexity: O (     1       ) -> board doesn't count

@@ -1,6 +1,7 @@
 from collections import defaultdict
 from typing import List
 
+
 class Solution:
     def findingUsersActiveMinutes(self, logs: List[List[int]], k: int) -> List[int]:
         # logs[i] = [ID_i, time_i]: user with ID_i performed an action at the minute time_i.

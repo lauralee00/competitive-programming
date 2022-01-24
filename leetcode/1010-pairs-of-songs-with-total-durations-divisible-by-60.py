@@ -1,11 +1,7 @@
 # https://leetcode.com/problems/pairs-of-songs-with-total-durations-divisible-by-60/
 
-import sys
 from collections import defaultdict
 from typing import List
-
-input = lambda: sys.stdin.readline().strip()
-read = lambda: map(int, input().split())
 
 
 class Solution:
