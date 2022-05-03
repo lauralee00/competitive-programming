@@ -1,6 +1,7 @@
 from typing import List
 from functools import lru_cache
 
+
 class Solution:
     def wordBreak(self, s: str, wordDict: List[str]) -> bool:
         # top down:
