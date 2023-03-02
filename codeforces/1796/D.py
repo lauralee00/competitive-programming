@@ -5,12 +5,7 @@ read = lambda: map(int, input().split())
 
 
 def solve():
-    t, = read()
-    for _ in range(t):
-        n, k = read()
-        a = input()
-        b = input()
-
+    pass
 
 
 if __name__ == '__main__':
