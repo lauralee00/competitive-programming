@@ -16,7 +16,6 @@ def solve():
         if cnts != cntt:
             print("no")
 
-
         for i, c in enumerate(s):
 
             if i < k and cntt[c] == :
